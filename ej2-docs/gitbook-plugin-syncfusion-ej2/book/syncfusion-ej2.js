@@ -268,7 +268,9 @@ require(['gitbook', 'jQuery'], function(gitbook, $) {
         form[0].submit();
         form.remove();
     }
-
+	if (document.referrer && document.referrer.indexOf('syncfusion') === -1) {
+       document.cookie = 'SampleSiteReferrer' + '=' + document.referrer + ';path=/;domain=syncfusion.com';
+     }
     // Gitbook page change event
     gitbook.events.bind('page.change', function() {
         init();
