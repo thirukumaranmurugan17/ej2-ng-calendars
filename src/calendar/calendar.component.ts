@@ -10,7 +10,7 @@ export const outputs: string[] = ['change','created','destroyed','navigated','re
 export const twoWays: string[] = ['value'];
 
 /**
- * Represents the EJ2 Angular Calendar Component.
+ * Represents the Essential JS 2 Angular Calendar Component.
  * ```html
  * <ej-calendar [value]='date'></ej-calendar>
  * ```

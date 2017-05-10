@@ -16,7 +16,7 @@ export var inputs = ['depth', 'enablePersistence', 'enableRtl', 'firstDayOfWeek'
 export var outputs = ['change', 'created', 'destroyed', 'navigated', 'renderDayCell', 'valueChange'];
 export var twoWays = ['value'];
 /**
- * Represents the EJ2 Angular Calendar Component.
+ * Represents the Essential JS 2 Angular Calendar Component.
  * ```html
  * <ej-calendar [value]='date'></ej-calendar>
  * ```
